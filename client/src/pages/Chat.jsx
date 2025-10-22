@@ -2,8 +2,8 @@ import React, { useEffect, useState, useRef } from "react";
 import axios from "axios";
 import io from "socket.io-client";
 
-const API_URL = "http://localhost:5000/api"; // Change as needed
-const SOCKET_URL = "http://localhost:5000";
+const API_URL = "https://talkify-33rw.onrender.com/api"; // Change as needed
+const SOCKET_URL = "https://talkify-33rw.onrender.com";
 
 export default function Chat() {
   const token = localStorage.getItem("token");
